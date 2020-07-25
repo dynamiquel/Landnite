@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1038112431857946}
+  m_IsPrefabAsset: 1
+--- !u!1 &1038112431857946
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4726250379649380}
+  - component: {fileID: 114565050805077196}
+  - component: {fileID: 114665710961298018}
+  - component: {fileID: 114264705624789778}
+  m_Layer: 5
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4726250379649380
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1038112431857946}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 24978.857, y: 13267.73, z: 0}
+  m_LocalScale: {x: 60.60781, y: 60.60781, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114264705624789778
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1038112431857946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a59b7402e128440aa710b77e117b250, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114565050805077196
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1038112431857946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99a1b4a11d1a0433496276db4c3513a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  space: 25
+  equipments:
+  - {fileID: 11400000, guid: fab4e0519425c47b59aa5b1fc9fb83b8, type: 2}
+  - {fileID: 11400000, guid: 39903c04cd8a748c286087cc7fac6ab1, type: 2}
+  - {fileID: 11400000, guid: ffa3502daee8d440a983224d0622cc91, type: 2}
+  - {fileID: 11400000, guid: 59ccd78e2c3184180b2692c63a244d99, type: 2}
+  - {fileID: 11400000, guid: 39903c04cd8a748c286087cc7fac6ab1, type: 2}
+  - {fileID: 11400000, guid: b57872fe698e746a0a51ca8957cf0ecb, type: 2}
+  - {fileID: 11400000, guid: 3c0a7b39f84814b2d83f2de282e48e41, type: 2}
+  - {fileID: 11400000, guid: eb8940570f9664b7797e7dc79df9153a, type: 2}
+  - {fileID: 11400000, guid: 6ba6d33214593481d8317e78287b3d19, type: 2}
+  - {fileID: 11400000, guid: 6d53c04186dcb4b729961504536dd0a4, type: 2}
+  - {fileID: 11400000, guid: bf8fdfd9fe3dc426d93c0bd67c10cd53, type: 2}
+  - {fileID: 11400000, guid: 65bc34532ef0b4e529a0359365f9761a, type: 2}
+  - {fileID: 11400000, guid: 690d1619e0500407cab6517d86e21849, type: 2}
+  - {fileID: 11400000, guid: da4cc67e9dda248cdbc24ebec0c0b5d0, type: 2}
+  - {fileID: 11400000, guid: c1829fa17183b4046a400e40e0afe333, type: 2}
+  - {fileID: 11400000, guid: fab4e0519425c47b59aa5b1fc9fb83b8, type: 2}
+  - {fileID: 11400000, guid: c98f91ae277314869a8f88d156ab9180, type: 2}
+  - {fileID: 11400000, guid: 253f79fd1dbca48a7a381ab65ba016e2, type: 2}
+  - {fileID: 11400000, guid: 436beaa5aa9ce4cb0addb3573ce93d89, type: 2}
+  - {fileID: 11400000, guid: 690d1619e0500407cab6517d86e21849, type: 2}
+  - {fileID: 11400000, guid: 184320c5a409b4cffbfa8a22bf6a36dc, type: 2}
+  - {fileID: 11400000, guid: 6d53c04186dcb4b729961504536dd0a4, type: 2}
+  - {fileID: 11400000, guid: bf8fdfd9fe3dc426d93c0bd67c10cd53, type: 2}
+  - {fileID: 11400000, guid: b17862edf0ca14b7c90f6d01751b7325, type: 2}
+  - {fileID: 11400000, guid: 5eaa71eb07941469cb6013c5f7606e04, type: 2}
+--- !u!114 &114665710961298018
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1038112431857946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b596ce4beefb641cf90c8334cd45763b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  equipmentSlot:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  equippedImage:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  equippedEquipment: []
