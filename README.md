@@ -1,5 +1,5 @@
 # Landnite
-The first game I ever created. It was the result of my Computer Science A-level project.
+The first game I ever created. It was the result of my Computer Science A-level project in 2018-2019.
 
 All the code in this repo (besides from generated code) was done my me.
 
